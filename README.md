@@ -1,3 +1,7 @@
+# Demo sample
+https://d3n7hprkz22u6m.cloudfront.net
+
+
 # Auth0 Vue.js Samples
 
 [![CircleCI](https://circleci.com/gh/auth0-samples/auth0-vue-samples.svg?style=svg)](https://circleci.com/gh/auth0-samples/auth0-vue-samples)
