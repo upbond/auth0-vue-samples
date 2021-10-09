@@ -38,7 +38,7 @@ jobs:
         # CI=false ignore error
         run: |
           cd 02-Calling-an-API
-          echo '{"domain": "${{secrets.ORG_UPBOND_DEMO_DOMAIN}}", "client_id": "${{secrets.ORG_UPBOND_DEMO_CLIENT_ID}}"}' > auth_config.json
+          echo '{"domain": "${{secrets.ORG_UPBOND_DEMO_DOMAIN}}", "clientId": "${{secrets.ORG_UPBOND_DEMO_CLIENT_ID}}"}' > auth_config.json
           npm ci
           CI=false npm run build
           
