@@ -54,7 +54,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.ORG_AWS_S3_SECRET_ACCESS_KEY_DANGER_TBD }}
           AWS_REGION: "ap-northeast-1"
           FROM_PATH: "./02-Calling-an-API/dist"
-          DEST_PATH: "s3://auth0-vue-samples/public"
+          DEST_PATH: "s3://upbond-demo-auth0-vue-samples/public"
           # acl (set access permissions)
           # delete option (removing files that do not exist in the source )
           OPTIONS: "--acl public-read"
