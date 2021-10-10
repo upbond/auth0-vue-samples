@@ -75,7 +75,8 @@ export const useAuth0 = ({
       this.auth0Client = await createAuth0Client({
         ...options,
         client_id: options.clientId,
-        redirect_uri: redirectUri
+        redirect_uri: redirectUri,
+        useFormData: true
       });
 
       try {
