@@ -36,6 +36,8 @@ library.add(faLink, faUser, faPowerOff);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
+alert(navigator.userAgent);
+
 new Vue({
   router,
   render: h => h(App)
